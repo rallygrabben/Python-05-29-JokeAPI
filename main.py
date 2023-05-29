@@ -10,7 +10,7 @@ def osclear():
 def main():
     
     osclear()
-    print('\tFörläng Livet med skratt och en rolig historia')
+    print('\tExtend live with laughter')
 
 
     url = 'https://v2.jokeapi.dev/joke/Miscellaneous,Dark,Pun,Spooky?blacklistFlags=religious,political,nsfw&type=single'
@@ -19,8 +19,9 @@ def main():
     jokeCounter = 1
     jokeObject = jokeHandler.jokeHandler(url, JSONStringExt)
 
-
     while True:
+
+
         t_Joke = jokeObject.getJoke()
         t_Joke = re.sub("(\n)", "\n\t\t", t_Joke) # Replaces the \n in the API output with \n\t\t so it's nicely formatted
 
