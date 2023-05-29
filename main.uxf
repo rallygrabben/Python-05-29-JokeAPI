@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>130</x><y>130</y><w>190</w><h>310</h></coordinates><panel_attributes>Main.py
+--
+url:string
+nr:int
+joke: JokeHandler
+--
+main()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>130</y><w>230</w><h>310</h></coordinates><panel_attributes>JokeHandler.py
+--
+adress:str
+-
+__init__(adress:str)
+getJoke() =&gt;joke:str
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>260</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element></diagram>
